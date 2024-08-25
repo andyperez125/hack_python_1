@@ -1,11 +1,8 @@
-def convertir_a_mayusculas(palabra):
-    return palabra.lower()
+"""
+text: "FOOZIMAN" output => "fooziman"
+"""
 
-def main():
+
+def fn_hack_2():
     palabra = "FOOZIMAN"
-    palabra_mayusculas = convertir_a_mayusculas(palabra)
-    print("La palabra en mayúsculas es:", palabra_mayusculas)
-
-if __name__ == "__main__":
-    main()
-    
+    return palabra.lower()
